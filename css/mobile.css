@@ -1,0 +1,32 @@
+@media (min-width:1200px) {
+    .container {
+        max-width: 1920px !important;
+    }
+}
+
+@media (min-width:992px) {
+    section.resume-section{
+        padding: 80px 48px;
+    }
+    
+}
+
+@media (min-width:768px) {
+    section.resume-section{
+        min-height: 100vh;
+    }
+}
+
+@media (max-width:576px){
+    nav{
+        display: none !important;
+    }
+    .main{
+        margin-left: 0;
+        padding: 10px;
+    }
+    .main .resume-section .content{
+        display: block;
+    }
+}
+
